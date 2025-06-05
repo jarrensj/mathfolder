@@ -1,0 +1,1 @@
+export type IconType = 'file' | 'link' | 'envelope' | 'people';
