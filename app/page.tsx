@@ -6,20 +6,15 @@ import Folder from './components/Folder';
 export default function Home() {
   const files = [
     {
-      name: 'app coming soon',
-      href: '',
-      iconType: 'link' as const
+      name: 'the chaos is calculated',
+      href: 'blog/the-chaos-is-calculated',
+      iconType: 'file' as const
     },
     {
       name: 'contact',
       href: 'mailto:contact@mathfolder.com',
       iconType: 'envelope' as const
     },
-    // {
-    //   name: 'file2',
-    //   href: '',
-    //   iconType: 'file' as const
-    // },
     {
       name: 'team',
       href: 'https://kwaji.com',
